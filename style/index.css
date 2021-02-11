@@ -69,7 +69,7 @@ img {
     width: 20%;
 }
 h1 {
-    font-size: 4rem;
+    font-size: 5rem;
 }
 .main p {
     font-size: 2rem;
@@ -77,5 +77,52 @@ h1 {
 .main div {
     display: flex;
     flex-direction: column;
-    border: 10px solid black;
+    text-align: center;
+    width: 20%;
+    align-items: center;
+    margin-top: 10%;
+}
+.main img {
+    width: 40%;
+    margin-bottom: 5%;
+    margin-top:1%;
+    margin-right: 5%;
+    margin-left: 1%;
+}
+.main button {
+    width: 30%;
+    align-items: center;
+    padding: 1% 0;
+}
+img {
+    display: flex;
+    width: 20%;
+}
+a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid white;
+    width: 10%;
+    
+}
+footer {
+    font-size: 2.4rem;
+    margin-top: 2.5%;
+    text-align: center;
+    
+}
+footer button {
+    width: 5%;
+    padding: 10px 0;
+    text-align: center;
+}
+.other div {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+footer p {
+    margin: 1%;
 }
